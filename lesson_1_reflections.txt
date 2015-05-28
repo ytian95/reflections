@@ -1,0 +1,34 @@
+Automatically compare files from commandline
+Windows   FC file1.txt file2.txt (FC File Compare)
+Mac/Linux Diff
+
+How did viewing a diff/fc between two versions of a file help you see the bug that was introduced?
+Much easier than comparing by hand. Shows the differences made between the two files so can 
+catch errors made from a non-working one to a working one.
+
+How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+Can see previous versions, if a change is made, and don't like the change or causes an error, can
+easily go back to a previous workign version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in 
+Git, vs having versions automatically saved, like Google docs does?
+Automatically is good if you forget, the more manual is better for more logical breaks.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+Git because code is interlinked, google docs, usually each doc is not related to another. 
+
+How can you use the commands git log and git diff to view the history of files?
+log to see previous commits. diff to see which lines were changed.
+
+How might using version control make you more confident to make changes that could break something?
+you can go back to a previous unbroken version.
+
+git init - create repository
+git log
+git diff
+git status
+
+Now that you have your workspace set up, what do you want to try using Git for?
+android, collaborations, sharing
